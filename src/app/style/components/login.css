@@ -1,0 +1,97 @@
+.login-page{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    padding: 0 0 32px;
+    max-width: 800px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+.login-form a{
+    text-decoration: none;
+}
+.login-form > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-form > div > span{
+    margin: 10px 0;
+}
+.login-form > div > p{
+    text-align: center;
+}
+.login-facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.login-facebook > span:first-child{
+    background-image: url('../../images/facebook_icon.svg');
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+.card-phone{
+    background-size: 468.32px 634.15px;
+    background-image: url('../../images/phonesbg.png');
+    margin: 0 32px 12px 0;
+    height: 580px;
+}
+.card h1, .card h2{
+    text-align: center;
+}
+.card h2{
+    font-size: 20px;
+}
+.card > div:first-child, .card > div:nth-child(2){
+    border: 1px solid #dbdbdb;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+.card > div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card > div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+.card > div:nth-child(2) > p{
+    padding: 0 12px;
+}
+.card > div:nth-child(2) > p > a{
+    font-weight: 700;
+    color: rgb(0, 149, 246);
+}
+.login-download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.login-download > div{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px;
+
+
+}
+.login-download > div > a > img{
+    height: 40px;
+    object-fit: contain;
+    width: auto;
+}
+.login-download > div > a:first-child{
+    margin-right: 8px;
+}

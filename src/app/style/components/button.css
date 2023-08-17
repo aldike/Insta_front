@@ -1,0 +1,27 @@
+.login-button{
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin: 8px 20px;
+    background-color: rgb(0, 149, 246);
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+}
+.button-primary{
+    
+    color: #fff;
+}
+.button-primary:hover{
+    opacity: 0.9;
+}
+.button-primary-bordered{
+    border: 1px solid #1785e5;
+    color: #1785e5;
+    background-color: transparent;
+}
+.button-primary-bordered:hover{
+    opacity: 0.9;
+}

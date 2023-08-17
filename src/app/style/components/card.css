@@ -1,0 +1,8 @@
+.card{
+    max-width: 350px;
+    height: 100%;
+}
+.card span, .card a, .card p{
+    text-decoration: none;
+    font-size: 14px;
+}
