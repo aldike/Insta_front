@@ -12,3 +12,7 @@
 .login-input::placeholder{
     font-size: 12px;
 }
+.profile-posts-input{
+    background-color: transparent;
+    border: 1px solid #dbdbdb;
+}

@@ -1,12 +1,12 @@
 'use client'
 // import Header from '@/components/header'
-import Test from '@/components/test'
+import UserLogin from '@/components/auth/user'
 import Footer from '@/components/footer'
 
-export default function Home() {
+export default function Login() {
   return (
     <main>
-      <Test/>
+      <UserLogin/>
       <Footer/>
     </main>
   )
